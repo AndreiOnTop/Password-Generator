@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: black;
+}
+
+
+.container {
+    width: 400px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    color: white;
+    border: solid rgb(221, 221, 221) 3px;
+    backdrop-filter: blur(20px);
+    box-shadow: 5px 5px 40px #fff
+}
+
+.container .header-txt .title {
+    padding-bottom: 20px;
+}
+
+.container header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: solid white 2px;
+}
+
+
+.container .input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.container .input-box input {
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    cursor: default;
+    border: solid rgb(230, 230, 230) 3px;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+}
+
+
+
+.container .input-box i {
+    font-size: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.container .input-box i:hover {
+    transform: scale(1.3);
+}
+
+.slider .text {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+
+.slider input {
+    width: 380px;
+    border: none;
+    padding: 10px;
+    transition: all .25s ease-in-out;
+}
+
+.checkbox-container .input-checkboxes {
+    justify-content: space-evenly;
+    align-items: center;
+    display: grid;
+}
+
+.checkbox-container .input-checkboxes #lowercase {
+    pointer-events: none;
+}
+
+.checkbox-container .input-checkboxes input {
+    margin-top: 20px;
+}
+
+.container .gen-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.container .gen-btn button {
+    width: 100%;
+    height: 65px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(11, 123, 220);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.25s ease-in-out;
+}
+
+.container .gen-btn button:hover {
+    transform: scale(1.1);
+}
